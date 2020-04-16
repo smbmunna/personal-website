@@ -18,9 +18,10 @@ h1{
     float:left;
     margin-left: 5%;
     padding-left: 2%;
-    padding-top: 10%;
+    padding-top: 10%;;
    
 }
+
 .half-width img{
     width: 85%;    
     height: 85%;
@@ -86,7 +87,8 @@ p{
     font-size: 20px;
 }
 .client-desc h6{
-    color: #9c9c9c;    
+    color: #9c9c9c;  
+    font-size: 12px;  
 }
 .client-desc p{
     color: #696969;
