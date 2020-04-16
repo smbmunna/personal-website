@@ -4,11 +4,13 @@ body{
 }
 h2{    
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 35px;
 }
 h1{
     font-family: 'Lexend Giga', sans-serif;
-    font-size: 35px;
+    font-size: 40px;
+    font-weight: 900;
     color:rgb(255, 0, 157);
 }
 .half-width{
@@ -20,7 +22,9 @@ h1{
    
 }
 .half-width img{
-    width: 100%;    
+    width: 85%;    
+    height: 85%;
+    
 }
 section{
     height: 750px;    
@@ -34,13 +38,14 @@ section{
 p{
     font-family: 'Roboto', sans-serif;
     color:dimgray;
-    font-size: 12px;
+    font-size: 17px;
+    padding-bottom: 30px;
 }
 .anchor-btn{
     background-color:rgb(255, 0, 157) ;
     text-decoration: none;
     color: white;
-    padding: 2px 4px;
+    padding: 10px 30px;
     border-radius: 4px;
 }
 .biography{
@@ -65,7 +70,7 @@ p{
 }
 .latest-work-headline{
     padding-top: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .clients{
     text-align: center;
@@ -74,13 +79,14 @@ p{
     background-size: 100% 100%;
 }
 .client-headline{
-    padding-bottom: 30px;
+    padding-bottom: 5px;
 }
 .client-desc h5{
     color: #5a5a5a;
+    font-size: 20px;
 }
 .client-desc h6{
-    color: #9c9c9c;
+    color: #9c9c9c;    
 }
 .client-desc p{
     color: #696969;
@@ -91,16 +97,21 @@ p{
     background-color:rgb(255, 0, 157) ;
     color: white;
     display: inline-block;
-    padding: 20px 80px 50px 80px;
-    border-radius: 5px;
+    padding: 30px 100px 60px 100px;
+    border-radius: 10px;
 }
 .button-text{
-    font-size: 10px;
+    font-size: 15px;
     padding-bottom: 200px;
     padding-top: 200px;
+    font-family: 'Lexend Giga', sans-serif;
+}
+.button-link{
+    font-size: 25px;
 }
 .footer{
-    padding-top: 80px;
+    font-size: 15px;
+    padding-top: 100px;
 }
 
 
