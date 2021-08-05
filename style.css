@@ -1,0 +1,190 @@
+body{
+    margin:0px;
+    padding:0px;   
+    font-family: 'Roboto', sans-serif;
+}
+.top-nav{
+    margin-top: 30px;
+    margin-right: 15%;
+    text-align:right;
+}
+.top-nav a{
+    text-decoration: none;
+    color: #3C3C3C;
+    font-size: 13px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+/* ---------------intro section------------------------------- */
+.intro-section{
+    margin: 0px 10%;
+    margin-top: 30px;   
+   border: 1px solid red;
+   height: 500px;
+   
+}
+.heading{
+    font-size: 75px;
+    font-family: 'Bebas Neue', cursive;
+    color:#363958;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+.intro-section p{
+    font-size: 15px;
+    width: 65%;
+    color:#3E3E3E;
+    margin-bottom: 50px;
+}
+.salmon-color-text{
+    color: #FF8367;
+    
+}
+h2{
+    margin-top: -20px;
+    margin-bottom: 0px;
+    font-size: 65px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+}
+.intro-section img{
+    height: 475px;
+    width: 500px;
+   
+}
+.half-width{
+    float:left;
+    width: 50%;    
+    margin-top: 0px;
+}
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#FC5E51, #F59E75);
+    color: white;
+    padding: 20px 50px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+/* ---------------about section------------------------------- */
+.about-section{
+    margin: 0px 10%;
+    height: 500px;
+    border: 1px solid blue;
+}
+.about-section img{    
+    height: 525px;
+    width: 550px;
+}
+
+.about-section p{
+    font-size: 15px;
+    width: 80%;
+    color:#3E3E3E;
+    margin-bottom: 50px;
+}
+.about-section h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.about{
+   width:50%;
+   margin-top: 100px;
+   margin-right: 0px;
+}
+
+/* ---------------projects section------------------------------- */
+.projects-section{
+   margin-top: 50px;
+   height: 700px;
+   background-color: #F8F9FC;
+   border: 1px solid red;
+}
+.width3 img{
+    width: 250px;
+    height: 175px;
+    object-fit: scale-down;
+    border:1px solid red;   
+    margin-left: 12%;
+}
+.width3{
+    border: 1px solid red; 
+    border-radius: 10px;
+    width: 30%;
+    float: left;
+    margin:0px 10px;
+    background-color: white;
+}
+
+.projects-section h3{
+    text-align: center;
+    margin-top:50px;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+}
+.container{
+    margin-left:10%;
+    margin-right: 10%;
+}
+
+/* ---------------work section------------------------------- */
+.work-section{
+    height:300px;
+}
+
+.work-container{
+    margin-top: 80px;
+    margin-left:20%;
+    margin-right:20%;
+    border:1px solid red;
+    background-image: url("./shapes/Group_33094_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:275px;
+    width: 60%;
+    
+}
+.work-container h1{
+    float:left;
+    margin-left:5%;
+    margin-top:8%;
+    color:white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    font-weight: 400;
+}
+.work-container a{
+    float:right;
+    margin-right:5%;
+    margin-top:8%;
+    font-weight: 300;   
+    
+}
+.work-footer{
+    border:1px solid blue;
+    margin: 0px 20% 10px 20%;
+    text-align: center;
+    height: 220px;
+}
+.work-footer h3{
+    font-size:30px;
+    font-family: 'Bebas Neue', cursive;
+    color:#696871;
+    font-weight: 300;
+}
+.work-footer h2{
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+    font-size:40px;
+    font-weight: 600;
+}
+.icons{
+    margin-top: 20px;
+}
+.icons img{
+    height: 30px;
+    width: 30px;
+    margin:0px 10px; 
+}
