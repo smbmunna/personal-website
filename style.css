@@ -19,8 +19,7 @@ body{
 /* ---------------intro section------------------------------- */
 .intro-section{
     margin: 0px 10%;
-    margin-top: 30px;   
-   border: 1px solid red;
+    margin-top: 30px;      
    height: 500px;
    
 }
@@ -59,7 +58,7 @@ h2{
     width: 50%;    
     margin-top: 0px;
 }
-.hire-button{
+.button{
     text-decoration: none;
     background-image: linear-gradient(45deg,#FC5E51, #F59E75);
     color: white;
@@ -70,10 +69,10 @@ h2{
 /* ---------------about section------------------------------- */
 .about-section{
     margin: 0px 10%;
-    height: 500px;
-    border: 1px solid blue;
+    height: 400px;    
 }
-.about-section img{    
+.about-section img{   
+    margin-top: -100px; 
     height: 525px;
     width: 550px;
 }
@@ -98,23 +97,29 @@ h2{
 .projects-section{
    margin-top: 50px;
    height: 700px;
-   background-color: #F8F9FC;
-   border: 1px solid red;
+   background-color: #F8F9FC;   
+}
+.projects-section h3{
+    color:#363958;
+    padding-top: 50px;
 }
 .width3 img{
+    width: 100%;
+}
+.image-container{
     width: 250px;
-    height: 175px;
-    object-fit: scale-down;
-    border:1px solid red;   
-    margin-left: 12%;
+    margin: 0px auto;
+    padding-top:20px;
+}
+.card .details{
+    width: 250px;
+    margin: 0px auto;
+    padding-bottom: 20px;
+    
 }
 .width3{
-    border: 1px solid red; 
-    border-radius: 10px;
-    width: 30%;
+    width: 33.33%;
     float: left;
-    margin:0px 10px;
-    background-color: white;
 }
 
 .projects-section h3{
@@ -126,8 +131,20 @@ h2{
 }
 .container{
     margin-left:10%;
-    margin-right: 10%;
+    margin-right: 10%;    
 }
+
+.card{
+    
+    
+    box-shadow: 0px 7px 19px 0px rgba(0,0,0,0.08);
+    margin: 20px;
+    border-radius: 5px;
+    background-color: white;
+    width :320px;
+    height :330px;
+}
+
 
 /* ---------------work section------------------------------- */
 .work-section{
@@ -137,8 +154,7 @@ h2{
 .work-container{
     margin-top: 80px;
     margin-left:20%;
-    margin-right:20%;
-    border:1px solid red;
+    margin-right:20%;    
     background-image: url("./shapes/Group_33094_1.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -162,8 +178,7 @@ h2{
     font-weight: 300;   
     
 }
-.work-footer{
-    border:1px solid blue;
+.work-footer{    
     margin: 0px 20% 10px 20%;
     text-align: center;
     height: 220px;
